@@ -3,7 +3,7 @@
 
 
 ## INSTALL
-sudo apt install net-tools
+sudo apt install net-tools -y
 
 
 sudo ifconfig wlan0 up
