@@ -14,7 +14,7 @@ fi
 
 sudo ifconfig wlan0 up
 
-sudo wpa_supplicant -B -c /etc/wpa_supplicant.conf -i wlp4s0
+sudo wpa_supplicant -B -c /etc/wpa_supplicant.conf -i wlan0
 
 wget -q --spider http://google.com
 
