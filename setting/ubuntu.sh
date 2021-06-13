@@ -18,3 +18,5 @@ if [ $? -eq 0 ]; then
 else
     echo "Offline"
 fi
+
+echo "end"
