@@ -1,3 +1,4 @@
+rm -rf creco-key
 git clone https://github.com/CreatiCoding/creco-key
 cd creco-key
 cp creco-frontend.env ../.env
