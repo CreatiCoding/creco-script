@@ -4,6 +4,6 @@ cp creco-frontend.env ../.env
 cd ..
 rm -rf creco-script
 
-echo .env | xargs -I {} echo "export {}" >>.envrc
+cat .env | xargs -I {} echo "export {}" >>.envrc
 
 direnv allow
